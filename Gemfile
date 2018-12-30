@@ -2,10 +2,10 @@
 # the following line to use "https"
 source 'http://rubygems.org'
 
-gem "middleman"
+gem "middleman", ">= 4.1.2"
 
 # Used to deploy the site to GitHub Pages
-gem "middleman-deploy"
+gem "middleman-deploy", ">= 1.0.0"
 
 gem 'middleman-gh-pages'
 
